@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbe228c8-f801-41a2-99a8-7671058d9d68">
+  <producedTypes>
+    <objectType typeId="cb4843e5-c14d-4f69-be7b-ce4b74492391" valueTypeId="3c6f19a8-5139-4e61-a83a-87f9256f4aa3"/>
+    <refType typeId="e7ff0b85-25e6-42f4-b873-95523cc0d435" valueTypeId="bbadbd1b-bb19-47e0-ae39-3c7f4019f55e"/>
+    <selectionType typeId="146e7226-74eb-4a25-b9cc-63d61689209e" valueTypeId="6d0982df-fb3a-4160-9181-8937ad805af5"/>
+    <listType typeId="ad416125-3190-4f8e-9417-b8da0cb2505c" valueTypeId="992d0921-6c18-41bb-bec7-b668eb6f8a4c"/>
+    <managerType typeId="ed705aad-3b8f-466a-9faa-18cc74ec6692" valueTypeId="c812b97f-0e9d-4b5b-aa96-fda64e658e13"/>
+  </producedTypes>
+  <name>КлиентыХранилища</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клиенты хранилища</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КлиентыХранилища.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КлиентыХранилища.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="5f71bfc7-8ba2-4158-925d-e5ebed4389b3">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

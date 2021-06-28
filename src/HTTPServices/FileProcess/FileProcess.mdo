@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e386150f-7b09-4c71-9067-5b53deb78236">
+  <name>FileProcess</name>
+  <synonym>
+    <key>ru</key>
+    <value>File process</value>
+  </synonym>
+  <rootURL>FileProcess</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="e5674092-8db3-44aa-9269-536fff7c49a4">
+    <name>APIV1</name>
+    <synonym>
+      <key>ru</key>
+      <value>APIV1</value>
+    </synonym>
+    <template>/V1/{MethodName}</template>
+    <methods uuid="587279dc-d8c8-46d0-acad-56a7919ac928">
+      <name>Method</name>
+      <synonym>
+        <key>ru</key>
+        <value>Method</value>
+      </synonym>
+      <httpMethod>Any</httpMethod>
+      <handler>APIV1Method</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
